@@ -23,8 +23,8 @@ tenant_id = "9mujenxvws3a"
 crack_detect_application = "77xqVBEj"
 crack_bounding_output = "cracksbounding_4qr"
 url_prefix = ('https://api.cogniac.io/1')
-username = ('jcherbini@better.vu')
-password = ('INFORMATI0n!')
+username = ('')
+password = ('')
 
 # TOKEN SETUP
 tenant_data = {"tenant_id": tenant_id}

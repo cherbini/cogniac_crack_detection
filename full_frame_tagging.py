@@ -17,8 +17,8 @@ tenant_id = "9mujenxvws3a"
 crack_detect_application = "Ttf5p5Cx"
 crack_bounding_output = "jc_crack_full_frame_output_3xe"
 url_prefix = ('https://api.cogniac.io/1')
-username = ('')
-password = ('')
+username = ('jcherbini@better.vu')
+password = ('informati0n')
 
 # TOKEN SETUP
 tenant_data = {"tenant_id": tenant_id}
@@ -40,12 +40,12 @@ jsonData = jsonResponse['data']
 # ITERATE THROUGH REQUIRED JSON VARS
 for item in jsonData:
     # DISPLAY BASIC IMAGE STATISTICS
-    print '\n'
+    print ("\n")
     mediaID = item['subject']['media_id']
-    print 'Media ID:' + mediaID
+    print ('Media ID:' + mediaID)
     fileName = item['media']['filename']
-    print 'File Name:' + fileName
-    print 'Consensus:' + item['subject']['consensus']
+    print ('File Name:' + fileName)
+    print ('Consensus:' + item['subject']['consensus'])
     # ROUND THE PROBABILITY RETURN
     probRnd = round(item['subject']['probability'], 3)
-    print 'Probability:' + str(probRnd)
+    print ('Probability:' + str(probRnd))
